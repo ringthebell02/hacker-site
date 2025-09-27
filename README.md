@@ -1,0 +1,1 @@
+Hey y'all! I have created this site (with the help of AI) for easy access to all things unblocked! Games, AI, Movies/TV, etc. Make sure to suggest links to add on the site. I want to make sure this site never gets taken down. I urge everyone to keep this site under wraps. This will be ruined if it is blocked. Thanks!
