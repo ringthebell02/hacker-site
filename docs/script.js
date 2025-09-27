@@ -6,33 +6,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const links = {
         games: [
-            { text: 'Game 1', url: '#' },
-            { text: 'Game 2', url: '#' },
-            { text: 'Game 3', url: '#' },
-            { text: 'Game 4', url: '#' },
-            { text: 'Game 5', url: '#' },
-            { text: 'Game 6', url: '#' },
-            { text: 'Game 7', url: '#' },
-            { text: 'Game 8', url: '#' },
-            { text: 'Game 9', url: '#' },
-            { text: 'Game 10', url: '#' },
-            { text: 'Game 11', url: '#' },
-            { text: 'Game 12', url: '#' },
-            { text: 'Game 13', url: '#' },
-            { text: 'Game 14', url: '#' },
-            { text: 'Game 15', url: '#' },
-            { text: 'Game 16', url: '#' },
-            { text: 'Game 17', url: '#' },
-            { text: 'Game 18', url: '#' },
-            { text: 'Game 19', url: '#' },
-            { text: 'Game 20', url: '#' },
+            { text: 'Internet Archive Flash', url: 'https://archive.org/details/softwarelibrary_flash_games' },
+            { text: 'C64 Games', url: 'https://archive.org/details/softwarelibrary_c64' },
+            { text: 'Console Emulator', url: 'https://archive.org/details/consolelivingroom' },
+            { text: 'Oregon Trail', url: 'https://www.visitoregon.com/the-oregon-trail-game-online/' },
+            { text: 'GitHub Unblocked Games List', url: 'https://gist.github.com/eddy-22/2cdfadfa539cdaccfd0a9e31bf98e6d6#unblocked-sites' },
+            { text: '', url: '#' },
+            { text: 'JavyQuavy Games', url: 'https://sites.google.com/view/javyquavy-un-blocked-games/home' },
+            { text: 'RubyCave', url: 'http://Rubycave.com.ar' },
+            { text: 'Kelki (Drawing Tool)', url: 'https://kleki.com' },
+            { text: 'MORE COMING SOON', url: '#' },
+            
+           
         ],
         movies: [
-            { text: 'Movie/TV Site 1', url: '#' },
-            { text: 'Movie/TV Site 2', url: '#' },
+            { text: 'Movie/TV Site A', url: 'https://sites.google.com/view/empireunblockin/movies/page-10' },
+            { text: 'Movie/TV Site B', url: 'https://sites.google.com/view/scholarvision/movies' },
         ],
         suggestions: [
             { text: 'Google Form', url: 'https://docs.google.com/forms/u/0/' }, // <-- IMPORTANT: Replace with your actual Google Form link
+        ],
+        ai: [
+            { text: 'MS Copilot', url: 'https://copilot.microsoft.com' },
+            { text: 'MORE COMING SOON', url: '#' },
+        ],
+        docs: [
+            { text: 'Google Doc', url: 'https://docs.google.com/document/d/10AvkAcGyNWAI2-DoFeldyRJQoPX2W9eaf2dQlnvA4ds/edit?usp=sharing' },
         ]
     };
 
@@ -82,4 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
     generateButtons('games-grid', links.games);
     generateButtons('movies-grid', links.movies);
     generateButtons('suggestions-grid', links.suggestions);
+    generateButtons('ai-grid', links.ai);
+    generateButtons('docs-grid', links.docs);
 });
