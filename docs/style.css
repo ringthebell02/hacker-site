@@ -110,7 +110,6 @@ body {
 /* Button Grid for Links */
 .button-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 10px;
 }
 
@@ -122,9 +121,7 @@ a.link-button {
     border-radius: 4px;
     border: 1px solid #333;
     transition: all 0.2s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    word-wrap: break-word;
 }
 
 a.link-button:hover {
